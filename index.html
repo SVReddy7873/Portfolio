@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M. Anjani Sai Vivek Reddy | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="brand">
+      <span class="brand-mark">VR</span>
+      <div>
+        <p class="brand-name">M. Anjani Sai Vivek Reddy</p>
+        <p class="brand-role">Aspiring AI/ML Engineer</p>
+      </div>
+    </div>
+    <nav class="nav-links" id="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#awards">Awards</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">☀️</button>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-content glass">
+        <p class="eyebrow">Berhampur, India · +91-7846933034 · saivivekm28@gmail.com</p>
+        <h1>Hi, I'm <span class="accent">M. Sai Vivek</span></h1>
+        <p class="lede">
+          Motivated Computer Science student with hands-on experience in AI, machine learning, and full-stack projects. I love building solutions that blend data, design, and impact.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projects">View Projects</a>
+          <a class="btn ghost" href="mailto:saivivekm28@gmail.com">Let's Talk</a>
+        </div>
+        <div class="meta">
+          <span>Nationality: Indian</span>
+          <span>Passport: AD253246</span>
+          <span>DOB: 22-03-2005</span>
+        </div>
+      </div>
+      <div class="hero-card glass">
+        <p class="section-label">Profile</p>
+        <p class="card-text">
+          Detail-oriented and collaborative, experienced in leading project initiatives, coordinating cross-functional efforts, and delivering under deadlines. Passionate about using AI and data to solve real-world problems.
+        </p>
+        <div class="tags">
+          <span>AI/ML</span>
+          <span>Leadership</span>
+          <span>Teamwork</span>
+          <span>Problem Solving</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="section-header">
+        <h2>About</h2>
+        <p>Computer Science undergraduate focusing on practical AI and software delivery.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass">
+          <h3>What I Do</h3>
+          <p>I build data-driven products, experiment with deep learning models, and ship user-friendly experiences using modern web and mobile stacks.</p>
+        </div>
+        <div class="about-card glass">
+          <h3>How I Work</h3>
+          <p>I value clarity, rapid iteration, and measurable outcomes—pairing analytical thinking with open communication and strong documentation.</p>
+        </div>
+        <div class="about-card glass">
+          <h3>Where I'm Heading</h3>
+          <p>Growing into AI product roles where I can own end-to-end solutions—from research and modeling to deployment and user impact.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education" id="education">
+      <div class="section-header">
+        <h2>Education</h2>
+        <p>Building a solid CS foundation with applied projects and leadership.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item glass">
+          <div class="timeline-badge">2022 – 2026</div>
+          <div>
+            <h3>B.Tech, Computer Science & Technology</h3>
+            <p class="muted">NIST University · Berhampur, India · CGPA 7.53</p>
+          </div>
+        </div>
+        <div class="timeline-item glass">
+          <div class="timeline-badge">2020 – 2022</div>
+          <div>
+            <h3>Intermediate</h3>
+            <p class="muted">Priyadarshini Jr College · Vizag · 63%</p>
+          </div>
+        </div>
+        <div class="timeline-item glass">
+          <div class="timeline-badge">2019 – 2020</div>
+          <div>
+            <h3>Matriculation</h3>
+            <p class="muted">St. Xavier's High School · Berhampur · 55.63%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-header">
+        <h2>Projects</h2>
+        <p>Selected work in AI, computer vision, and applied machine learning.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card glass">
+          <div class="card-top">
+            <h3>AgriAid · Smart Crop Diagnosis</h3>
+            <span class="pill">2025 – present</span>
+          </div>
+          <p class="card-text">AI-powered Android app using ResNet50 to detect crop diseases from leaf images, with real-time inference, weather-based forecasting, and treatment guidance.</p>
+          <ul class="chips">
+            <li>ResNet50</li>
+            <li>Android</li>
+            <li>Cloud Backend</li>
+            <li>Geolocation</li>
+          </ul>
+        </article>
+        <article class="card glass">
+          <div class="card-top">
+            <h3>Insurance Cost Prediction</h3>
+            <span class="pill">06/2025</span>
+          </div>
+          <p class="card-text">Random Forest regression predicting medical insurance charges after preprocessing (encoding, scaling, splits) with evaluation via MAE, MSE, and R². Model serialized with Pickle.</p>
+          <ul class="chips">
+            <li>Python</li>
+            <li>Random Forest</li>
+            <li>Scikit-learn</li>
+            <li>Pickle</li>
+          </ul>
+        </article>
+        <article class="card glass">
+          <div class="card-top">
+            <h3>Face Recognition: With/Without Cap</h3>
+            <span class="pill">08/2024</span>
+          </div>
+          <p class="card-text">TensorFlow/Keras-based classifier distinguishing faces with and without caps, tuned for real-time detection across varied lighting and backgrounds.</p>
+          <ul class="chips">
+            <li>TensorFlow</li>
+            <li>Keras</li>
+            <li>OpenCV</li>
+            <li>Realtime</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-header">
+        <h2>Skills</h2>
+        <p>Technical depth with collaborative leadership and communication.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-block glass">
+          <h3>Programming</h3>
+          <p>Java · Python</p>
+        </div>
+        <div class="skill-block glass">
+          <h3>Databases</h3>
+          <p>MySQL</p>
+        </div>
+        <div class="skill-block glass">
+          <h3>Core CS</h3>
+          <p>DSA · Computer Networking</p>
+        </div>
+        <div class="skill-block glass">
+          <h3>Soft Skills</h3>
+          <p>Communication · Problem Solving · Analytical · Team Management</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section certifications" id="certifications">
+      <div class="section-header">
+        <h2>Certifications</h2>
+        <p>Continuous learning across AI, cybersecurity, and computer vision.</p>
+      </div>
+      <div class="list-grid">
+        <div class="list-item glass">
+          <h3>Cybersecurity - Tecnics</h3>
+          <p class="muted">19 May – 17 June 2025</p>
+        </div>
+        <div class="list-item glass">
+          <h3>AI Foundation - YUVA AI FOR ALL</h3>
+          <p class="muted">4h 30m</p>
+        </div>
+        <div class="list-item glass">
+          <h3>Computer Vision Using ML</h3>
+          <p class="muted">12 Jul – 1 Aug 2024</p>
+        </div>
+        <div class="list-item glass">
+          <h3>Java - CAC</h3>
+          <p class="muted">Jan – Apr 2024</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section awards" id="awards">
+      <div class="section-header">
+        <h2>Awards & Leadership</h2>
+        <p>Recognition across academics, hackathons, and community programs.</p>
+      </div>
+      <div class="list-grid">
+        <div class="list-item glass"><h3>NCC 'C' Certificate · 1(O) Naval Unit</h3></div>
+        <div class="list-item glass"><h3>Hackfest 2024 · IIT Bhubaneswar</h3></div>
+        <div class="list-item glass"><h3>1st Prize · Setubandhan · NIST University</h3></div>
+        <div class="list-item glass"><h3>Rajya Puraskar of Scout</h3></div>
+      </div>
+    </section>
+
+    <section class="section activities" id="activities">
+      <div class="section-header">
+        <h2>Extracurricular</h2>
+        <p>Keeping creativity and teamwork sharp beyond code.</p>
+      </div>
+      <div class="chips large">
+        <span>Stand-up Comedy</span>
+        <span>Kabaddi</span>
+        <span>Badminton</span>
+        <span>Singing</span>
+        <span>Cricket</span>
+        <span>Travelling</span>
+      </div>
+    </section>
+
+    <section class="section references" id="references">
+      <div class="section-header">
+        <h2>References</h2>
+        <p>Mentors who have guided my academic and project growth.</p>
+      </div>
+      <div class="cards-grid">
+        <article class="card glass">
+          <h3>Dr. Santosh Kumar Kar</h3>
+          <p class="muted">Senior Associate Professor, CSE · NIST University</p>
+          <p>Email: santoshkumarkar@nist.edu</p>
+          <p>Contact: +91 9861124913</p>
+        </article>
+        <article class="card glass">
+          <h3>Dr. Ashish Dass</h3>
+          <p class="muted">Assistant Professor, CSE · NIST University</p>
+          <p>Email: asishkthumardass@nist.edu</p>
+          <p>Contact: +91 9853345694</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer-content glass">
+      <div>
+        <h3>Let's collaborate</h3>
+        <p>Open to internships, research roles, and AI-driven product challenges.</p>
+      </div>
+      <div class="footer-actions">
+        <a class="btn primary" href="mailto:saivivekm28@gmail.com">Email Me</a>
+        <a class="btn ghost" href="tel:+917846933034">Call Now</a>
+      </div>
+    </div>
+    <div class="footer-meta">
+      <p>Berhampur, India · Indian · Passport AD253246</p>
+      <p>© 2026 M. Anjani Sai Vivek Reddy</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
